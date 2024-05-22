@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include custody_management *.css
+recursive-include custody_management *.csv
+recursive-include custody_management *.html
+recursive-include custody_management *.ico
+recursive-include custody_management *.js
+recursive-include custody_management *.json
+recursive-include custody_management *.md
+recursive-include custody_management *.png
+recursive-include custody_management *.py
+recursive-include custody_management *.svg
+recursive-include custody_management *.txt
+recursive-exclude custody_management *.pyc
